@@ -1,0 +1,108 @@
+{
+    "log": "{\"level\":\"DEBUG\",\"time\":\"2023-12-06T14:30:48.417Z\",\"caller\":\"usecase/tran_hist_ott.go:145\",\"message\":\" content message ott HDBank: 2023-12-06 21:30:40\\nTK: 999990335280715\\nSố tiền GD: +20,000VND\\nSố dư cuối: 1,671,543VND\\nNội dung GD: NGUYEN TRUONG SON Chuyen tien \",\"service\":\"notifier-prod\",\"traceId\":\"1732407244709965824\",\"workerID\":\"1\",\"type\":\"tran_hist\"}\n",
+    "stream": "stdout",
+    "time": "2023-12-06T14:30:48.417277349Z"
+},
+```txt
+tran_hist: 2023-12-06 21:30:40
+gg->kafka: 2023-12-06 21:30:46
+kafka-consume: 2023-12-06 21:30:48 -> chậm 8s
+noidung: HDBank: 2023-12-06 21:30:40\\nTK: 999990335280715\\nSố tiền GD: +20,000VND\\nSố dư cuối: 1,671,543VND\\nNội dung GD: NGUYEN TRUONG SON Chuyen tien
+```
+
+
+// -----
+{
+    "log": "{\"level\":\"DEBUG\",\"time\":\"2023-12-06T14:30:15.973Z\",\"caller\":\"usecase/tran_hist_ott.go:145\",\"message\":\" content message ott HDBank: 2023-12-06 21:30:09\\nTK: 999990335280715\\nSố tiền GD: -20,000VND\\nSố dư cuối: 1,651,543VND\\nNội dung GD: yeu em \",\"service\":\"notifier-prod\",\"traceId\":\"1732407108634161152\",\"workerID\":\"1\",\"type\":\"tran_hist\"}\n",
+    "stream": "stdout",
+    "time": "2023-12-06T14:30:15.973849117Z"
+}
+```txt
+tran_hist: 2023-12-06 21:30:09
+gg->kafka: 2023-12-06 21:30:15
+kafka-consume: 2023-12-06 21:30:15 -> chậm 6s
+noidung: HDBank: 2023-12-06 21:30:09\\nTK: 999990335280715\\nSố tiền GD: -20,000VND\\nSố dư cuối: 1,651,543VND\\nNội dung GD: test123
+```
+
+
+// ----
+{
+    "log": "{\"level\":\"DEBUG\",\"time\":\"2023-12-06T14:28:35.438Z\",\"caller\":\"usecase/tran_hist_ott.go:145\",\"message\":\" content message ott HDBank: 2023-12-06 21:28:30\\nTK: 999990335280715\\nSố tiền GD: +80,000VND\\nSố dư cuối: 1,671,543VND\\nNội dung GD: PHAM BAO HAN chuyen khoan \",\"service\":\"notifier-prod\",\"traceId\":\"1732406686959808512\",\"workerID\":\"1\",\"type\":\"tran_hist\"}\n",
+    "stream": "stdout",
+    "time": "2023-12-06T14:28:35.439206613Z"
+}
+```txt
+tran_hist: 2023-12-06 21:28:30
+gg->kafka: 2023-12-06 21:28:34
+kafka-consume: 2023-12-06 21:28:35 -> chậm 5s
+noidung: HDBank: 2023-12-06 21:28:30\\nTK: 999990335280715\\nSố tiền GD: +80,000VND\\nSố dư cuối: 1,671,543VND\\nNội dung GD: PHAM BAO HAN chuyen khoan
+```
+
+
+// -------
+{
+    "log": "{\"level\":\"DEBUG\",\"time\":\"2023-12-06T14:00:38.692Z\",\"caller\":\"usecase/tran_hist_ott.go:145\",\"message\":\" content message ott HDBank: 2023-12-06 21:00:32\\nTK: 999990335280715\\nSố tiền GD: -14,000VND\\nSố dư cuối: 1,591,543VND\\nNội dung GD: teo test qua ti \",\"service\":\"notifier-prod\",\"traceId\":\"1732399654147993600\",\"workerID\":\"1\",\"type\":\"tran_hist\"}\n",
+    "stream": "stdout",
+    "time": "2023-12-06T14:00:38.692560273Z"
+}
+```txt
+tran_hist: 2023-12-06 21:00:32
+gg->kafka: 2023-12-06 21:00:36
+kafka-consume: 2023-12-06 21:00:38 -> chậm 6s
+noidung: HDBank: 2023-12-06 21:00:32\\nTK: 999990335280715\\nSố tiền GD: -14,000VND\\nSố dư cuối: 1,591,543VND\\nNội dung GD: teo test qua ti
+```
+
+
+
+// ----
+{
+    "log": "{\"level\":\"DEBUG\",\"time\":\"2023-12-06T13:57:21.184Z\",\"caller\":\"usecase/tran_hist_ott.go:145\",\"message\":\" content message ott HDBank: 2023-12-06 20:57:14\\nTK: 999990335280715\\nSố tiền GD: -13,000VND\\nSố dư cuối: 1,605,543VND\\nNội dung GD: teo qua xiu \",\"service\":\"notifier-prod\",\"traceId\":\"1732398825768759296\",\"workerID\":\"1\",\"type\":\"tran_hist\"}\n",
+    "stream": "stdout",
+    "time": "2023-12-06T13:57:21.18491955Z"
+}
+```txt
+tran_hist: 2023-12-06 20:57:14
+gg->kafka: 2023-12-06 20:57:20
+kafka-consume: 2023-12-06 20:57:21 -> chậm 8s
+noidung: HDBank: 2023-12-06 20:57:14\\nTK: 999990335280715\\nSố tiền GD: -13,000VND\\nSố dư cuối: 1,605,543VND\\nNội dung GD: teo qua xiu
+```
+
+
+// ------
+{
+    "log": "{\"level\":\"DEBUG\",\"time\":\"2023-12-06T13:56:46.970Z\",\"caller\":\"usecase/tran_hist_ott.go:145\",\"message\":\" content message ott HDBank: 2023-12-06 20:55:53\\nTK: 999990335280715\\nSố tiền GD: -15,000VND\\nSố dư cuối: 1,618,543VND\\nNội dung GD: qua bom vcb \",\"service\":\"notifier-prod\",\"traceId\":\"1732398682260647936\",\"workerID\":\"1\",\"type\":\"tran_hist\"}\n",
+    "stream": "stdout",
+    "time": "2023-12-06T13:56:46.970497663Z"
+},
+```txt
+tran_hist: 2023-12-06 20:55:53
+gg->kafka: 2023-12-06 20:56:40
+kafka-consume: 2023-12-06 20:56:46 -> chậm 53s
+noidung: HDBank: HDBank: HDBank: 2023-12-06 20:55:53\\nTK: 999990335280715\\nSố tiền GD: -15,000VND\\nSố dư cuối: 1,618,543VND\\nNội dung GD: qua bom vcb 
+```
+
+
+// --------
+{
+    "log": "{\"level\":\"DEBUG\",\"time\":\"2023-12-06T13:55:12.587Z\",\"caller\":\"usecase/tran_hist_ott.go:145\",\"message\":\" content message ott HDBank: 2023-12-06 20:55:02\\nTK: 999990335280715\\nSố tiền GD: -12,000VND\\nSố dư cuối: 1,633,543VND\\nNội dung GD: qua tri test \",\"service\":\"notifier-prod\",\"traceId\":\"1732398286393847808\",\"workerID\":\"1\",\"type\":\"tran_hist\"}\n",
+    "stream": "stdout",
+    "time": "2023-12-06T13:55:12.587757194Z"
+},
+```txt
+tran_hist: 2023-12-06 20:55:02
+gg->kafka: 2023-12-06 13:55:09.544 +0000
+kafka-consume: 2023-12-06 20:55:12  -> chậm 10s
+noidung: HDBank: HDBank: 2023-12-06 20:55:02\\nTK: 999990335280715\\nSố tiền GD: -12,000VND\\nSố dư cuối: 1,633,543VND\\nNội dung GD: qua tri test
+```
+
+// ---------
+{
+    "log": "{\"level\":\"DEBUG\",\"time\":\"2023-12-06T13:54:15.837Z\",\"caller\":\"usecase/tran_hist_ott.go:145\",\"message\":\" content message ott HDBank: 2023-12-06 20:54:09\\nTK: 999990335280715\\nSố tiền GD: -12,000VND\\nSố dư cuối: 1,645,543VND\\nNội dung GD: qua mbbank \",\"service\":\"notifier-prod\",\"traceId\":\"1732398048362901504\",\"workerID\":\"1\",\"type\":\"tran_hist\"}\n",
+    "stream": "stdout",
+    "time": "2023-12-06T13:54:15.837304559Z"
+}
+```txt
+tran_hist: 2023-12-06 20:54:09
+kafka-consume: 2023-12-06T20:54:15  -> chậm 6s
+noidung: HDBank: 2023-12-06 20:54:09\\nTK: 999990335280715\\nSố tiền GD: -12,000VND\\nSố dư cuối: 1,645,543VND\\nNội dung GD: qua mbbank
+```

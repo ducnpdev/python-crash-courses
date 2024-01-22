@@ -1,0 +1,66 @@
+{
+    "pdf:unmappedUnicodeCharsPerPage": [
+        "0",
+        "0",
+        "0"
+    ],
+    "pdf:PDFVersion": "1.4",
+    "pdf:hasXFA": "false",
+    "access_permission:modify_annotations": "true",
+    "access_permission:can_print_degraded": "true",
+    "X-TIKA:Parsed-By-Full-Set": [
+        "org.apache.tika.parser.DefaultParser",
+        "org.apache.tika.parser.pdf.PDFParser"
+    ],
+    "X-TIKA:content_handler": "ToTextContentHandler",
+    "signature:reason": "Tôi đồng ý",
+    "pdf:num3DAnnotations": "0",
+    "dcterms:created": "2023-12-06T08:45:47Z",
+    "dcterms:modified": "2023-12-06T08:45:59Z",
+    "dc:format": "application/pdf; version=1.4",
+    "pdf:overallPercentageUnmappedUnicodeChars": "0.0",
+    "access_permission:fill_in_form": "true",
+    "pdf:docinfo:modified": "2023-12-06T08:45:59Z",
+    "pdf:hasCollection": "false",
+    "pdf:encrypted": "false",
+    "pdf:containsNonEmbeddedFont": "false",
+    "Content-Length": "257459",
+    "pdf:hasMarkedContent": "false",
+    "Content-Type": "application/pdf",
+    "pdf:producer": "iText® 5.5.13.1 ©2000-2019 iText Group NV (AGPL-version); modified using iText® 5.5.13 ©2000-2018 iText Group NV (AGPL-version)",
+    "pdf:totalUnmappedUnicodeChars": "0",
+    "access_permission:extract_for_accessibility": "true",
+    "access_permission:assemble_document": "true",
+    "xmpTPg:NPages": "3",
+    "resourceName": "b"hdss_cn01signedcn01signed.pdf"",
+    "pdf:hasAcroFormFields": "true",
+    "pdf:hasXMP": "false",
+    "signature:filter": [
+        "Adobe.PPKLite",
+        "Adobe.PPKLite"
+    ],
+    "pdf:charsPerPage": [
+        "6022",
+        "4475",
+        "4250"
+    ],
+    "access_permission:extract_content": "true",
+    "signature:date": [
+        "2023-12-06T08:45:59Z",
+        "2023-12-06T08:45:59Z"
+    ],
+    "access_permission:can_print": "true",
+    "X-TIKA:Parsed-By": [
+        "org.apache.tika.parser.DefaultParser",
+        "org.apache.tika.parser.pdf.PDFParser"
+    ],
+    "X-TIKA:parse_time_millis": "114",
+    "X-TIKA:embedded_depth": "0",
+    "pdf:annotationTypes": "null",
+    "access_permission:can_modify": "true",
+    "pdf:docinfo:producer": "iText® 5.5.13.1 ©2000-2019 iText Group NV (AGPL-version); modified using iText® 5.5.13 ©2000-2018 iText Group NV (AGPL-version)",
+    "pdf:docinfo:created": "2023-12-06T08:45:47Z",
+    "pdf:annotationSubtypes": "Widget",
+    "hasSignature": "true",
+    "pdf:containsDamagedFont": "false"
+}
